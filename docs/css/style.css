@@ -1,0 +1,299 @@
+.editor-page * {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.editor-page *,
+.editor-page *:before,
+.editor-page *:after {
+  box-sizing: border-box;
+}
+
+.editor-page :focus,
+.editor-page :active {
+  outline: none;
+}
+
+.editor-page a:focus,
+.editor-page a:active {
+  outline: none;
+}
+
+.editor-page aside,
+.editor-page nav,
+.editor-page footer,
+.editor-page header,
+.editor-page section {
+  display: block;
+}
+
+.editor-page html,
+.editor-page body {
+  height: 100%;
+  min-width: 320px;
+}
+
+.editor-page body {
+  line-height: 1;
+  font-size: 14px;
+  font-family: "NotoSans", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.editor-page input,
+.editor-page button,
+.editor-page textarea {
+  font-family: "NotoSans", sans-serif;
+}
+
+.editor-page input::-ms-clear {
+  display: none;
+}
+
+.editor-page button {
+  cursor: pointer;
+}
+
+.editor-page button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.editor-page a,
+.editor-page a:visited {
+  text-decoration: none;
+}
+
+.editor-page a:hover {
+  text-decoration: none;
+}
+
+.editor-page ul li {
+  list-style: none;
+}
+
+.editor-page ol li {
+  list-style: none;
+}
+
+.editor-page img {
+  vertical-align: top;
+}
+
+.editor-page h1,
+.editor-page h2,
+.editor-page h3,
+.editor-page h4,
+.editor-page h5,
+.editor-page h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+@font-face {
+  font-family: "DMSerif";
+  font-display: swap;
+  src: url("../fonts/DMSerifDisplay-Regular.woff") format("woff"), url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-display: swap;
+  src: url("../fonts/NotoSans.woff") format("woff"), url("../fonts/NotoSans.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-display: swap;
+  src: url("../fonts/NotoSans-Bold.woff") format("woff"), url("../fonts/NotoSans-Bold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 24px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+.editor-page {
+  padding: 96px 0;
+}
+
+.editor-page .container h1 {
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 800;
+  margin: 0 0 65px;
+}
+
+.editor-page .container h2 {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 800;
+  margin: 45px 0;
+}
+
+.editor-page .container h3 {
+  font-family: "DMSerif";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 45px 0 12px;
+}
+
+.editor-page .container h4 {
+  font-family: "DMSerif";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 45px 0 12px;
+  color: #E30517;
+}
+
+.editor-page .container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 34px -16px 34px;
+}
+
+.editor-page .container > ul > li {
+  margin: 16px;
+  width: calc((100% - 128px) / 4);
+}
+
+.editor-page .container > ul > li p {
+  font-family: "DMSerif";
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+.editor-page .container > ul > li ul li {
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+.editor-page .container > ol {
+  margin: 0 0 50px 0;
+}
+
+.editor-page .container > ol > li {
+  position: relative;
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+  padding: 0 0 0 28px;
+}
+
+.editor-page .container > ol > li:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #E30517;
+}
+
+.editor-page .container > a {
+  margin: 12px 0;
+}
+
+.editor-page .container a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+  color: #E30517;
+  text-decoration: underline;
+  transition: 300ms;
+}
+
+.editor-page .container a:hover {
+  opacity: 0.5;
+}
+
+.editor-page .container > p {
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.editor-page .container > p span {
+  display: inline-block;
+  font-size: 24px;
+  margin: 32px 0;
+}
+
+.editor-page .container > p strong {
+  font-family: "DMSerif";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+  .editor-page .container h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .editor-page .container h2 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .editor-page .container h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .editor-page .container h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .editor-page .container > ul > li {
+    width: calc((100% - 64px) / 2);
+  }
+}
+
+@media (max-width: 767px) {
+  .editor-page .container > ul > li {
+    width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 567px) {
+  .editor-page .container h1 {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  .editor-page .container h2 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .editor-page .container h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .editor-page .container h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
